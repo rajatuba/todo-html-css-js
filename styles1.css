@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.inputContainer {
+  width: 30%;
+  padding-bottom: 20px;
+  border-bottom: 3px solid lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+.commonRadius {
+  border-radius: 10px;
+  color: white;
+}
+.inputAddButton {
+  background-color: green;
+}
+.inputEditButton {
+  background-color: orange;
+}
+#todoList {
+  width: 40%;
+  margin-top: 30px;
+}
+.todoItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+input[type="checkbox"] {
+  width: 10%;
+  height: 15px;
+}
+.todoItemContent {
+  width: 50%;
+  overflow-wrap: break-word;
+}
+.todoItemDescriptionHeading {
+  color: blue;
+}
+.todoItemButton {
+  width: 30%;
+}
+.todoItemButtonEdit {
+  background-color: orange;
+}
+.todoItemButtonDelete {
+  background-color: red;
+}
+
+/*js classes*/
+.done {
+  text-decoration: line-through;
+}
+.displayNone {
+  display: none;
+}
